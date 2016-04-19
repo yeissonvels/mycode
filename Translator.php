@@ -13,7 +13,7 @@
  * This class provide you the posibility to have differents languages in your site.
  */
 class Translator {
-    public $languages;
+    protected $languages;
     protected $lang;
 
     function __construct() {
@@ -35,7 +35,7 @@ class Translator {
      */
     function getTrans($label, $substrEnd = 0) {
         $dictionary = array(
-            'not_privileges' => array(
+                'not_privileges' => array(
                 "You don't have enough access privileges!",
                 'No tiene privilegios suficientes para realizar esta acción!',
                 'Du hast nicht genügend rechte um diese Option auszuführen'
