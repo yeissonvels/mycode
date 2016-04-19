@@ -38,7 +38,7 @@ class WPDB {
      * @param $query
      * @return array
      *
-     * It get all results of a query
+     * It gets all results of a query
      */
     function get_results($query) {
         $array = array();
@@ -92,9 +92,10 @@ class WPDB {
 
     /**
      * @param $table
-     * @param $criteria
+     * @param $criteria (array key value) 
      * @return string
      *
+     * searchByCriteria('users', array('id' => '> 4', 'active' => 1, 'profile' => '>2'));
      */
     function searchByCriteria($table, $criteria) {
         $query = 'SELECT * FROM ' . $table . ' WHERE ';
