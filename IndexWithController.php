@@ -6,7 +6,7 @@
  * Time: 16:53
  *
  * This class give you the possibility to manage your web page access using the MVC pattern
- * This the default configuration: yourproject/?controller=yourController&opt=yourOption
+ * This is the default configuration: yourproject/?controller=yourController&opt=yourOption
  * localhost/myproject/?controller=user&opt=new_user
  */
 
