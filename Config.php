@@ -2,6 +2,8 @@
 /**
  * @author Yeisson Vélez
  * @date 23/04/2014
+ * 
+ * Complement for the DB class
  */
 
 
